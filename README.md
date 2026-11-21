@@ -8,4 +8,4 @@ Static website for Pulmatix Pty Ltd. Plain HTML and CSS, no build step. Hosted o
 - `fonts/` Space Grotesk and Inter (SIL Open Font License, licence texts included)
 - `img/`, `favicon*`, `apple-touch-icon.png` logo and icons
 
-Before pointing pulmatix.com at this site: remove the `noindex` line from `index.html` and `404.html`, and add a `CNAME` file containing `pulmatix.com`.
+The `CNAME` file sets the custom domain (pulmatix.com). DNS is managed at Hover. The `main` and `gh-pages` branches are kept identical; GitHub Pages publishes `gh-pages`.
